@@ -625,9 +625,9 @@ body.dark-mode button {
 }
 
 
-/* cc */
+/* cp */
 
-.cc__content{
+.cp__content{
   margin-top: 3em;
   display: flex;
   flex-wrap: wrap;
@@ -638,12 +638,12 @@ body.dark-mode button {
   font-style: normal;
 }
 
-.cc__content img {
+.cp__content img {
   max-width: 300px;
   max-height: 350px;
 }
 
-.cc__content a {
+.cp__content a {
   color: black; 
   display: block; 
   text-decoration: none;
@@ -651,16 +651,16 @@ body.dark-mode button {
   padding: 3em 3em;
 }
 
-.cc__content #ccblock a:hover {
+.cp__content #cpblock a:hover {
 background: var(--background-color); 
 text-decoration: none;
 display: block; 
 padding: 3em 3em;
 }
 
-/* PASSION PROJECTS */
+/* WS PROJECTS */
 
-.pp__content{
+.wp__content{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -671,11 +671,11 @@ padding: 3em 3em;
   margin-top: 5em;
 }
 
-.pp__content img {
+.wp__content img {
   max-width: 300px;
 }
 
-.pp__content a {
+.wp__content a {
   color: black; 
   display: block; 
   text-decoration: none;
@@ -683,21 +683,21 @@ padding: 3em 3em;
   padding: 3em 3em;
 }
 
-.pp__content #ppblock a:hover {
+.wp__content #wpblock a:hover {
 background: var(--background-color); 
 text-decoration: none;
 display: block; 
 padding: 3em 3em;
 }
 
-/* pp1 */
+/* wp1 */
 
-.pp1__content {
+.wp1__content {
   scroll-snap-align: start;
   margin-top: -10em;
 }
 
-.pp1__content span{
+.wp1__content span{
   white-space: pre-line;
 text-align: center;
 width: 1000px;
@@ -705,24 +705,24 @@ margin-left:auto;
 margin-right:auto;
 }
 
-.pp1__content h3 {
+.wp1__content h3 {
   position: relative;
   margin-bottom: 1.5em;
   
   }
 
-.pp1__content h4 {
+.wp1__content h4 {
   text-align: center;
   }
 
-.pp1__content img{
+.wp1__content img{
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
 
 }
 
-.pp1__content p{
+.wp1__content p{
   text-align: center;
   width: 800px;
 margin-left:auto;
