@@ -110,7 +110,7 @@ body.light-mode button {
   color: rgb(255, 255, 255);
   position: fixed;
   bottom: 2em;
-  right: 2em;
+  left: 2em;
   z-index: 2;
 }
 
@@ -138,7 +138,7 @@ body.dark-mode button {
   color: rgb(0, 0, 0);
   position: fixed;
   bottom: 2em;
-  right: 2em;
+  left: 2em;
   z-index: 2;
 }
 
@@ -792,3 +792,33 @@ white-space: pre-line;
   padding-right: 2em;
 }
  }
+
+
+
+
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1.5em;
+  left: 74.5em;
+  width: 4em;
+  z-index: 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(158, 158, 158, 0);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+#myBtn span{
+  font-size: 2em;
+}
+
+#myBtn:hover {
+  background-color: rgba(125, 125, 125, 0.142);
+}
+
+
