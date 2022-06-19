@@ -942,37 +942,6 @@ white-space: pre-line;
 }
 
 
-@media (max-width: 1420px) {
-  .nav__menu{
-    margin-top: 3em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    font-family: var(--body-font);
-    font-weight: 400;
-    font-style: normal;
-  }
-
-}
-
- @media (max-width: 750px) {
-
- }
-
- @media (max-width: 485px) {
-
- 
-.art__content img{
-  max-width: auto;
-  padding-left: 2em;
-  padding-right: 2em;
-}
- }
-
-
-
-
  #myBtn {
   display: none;
   position: fixed;
@@ -1145,3 +1114,231 @@ white-space: pre-line;
 [data-paint="cream4"] {
 	background-color: rgb(205, 248, 240);
 }
+
+
+
+
+@media (max-width: 1420px) {
+  .nav__menu{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+}
+
+ @media (max-width: 750px) {
+
+ }
+
+ @media (max-width: 485px) {
+
+ 
+.art__content img{
+  max-width: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+ }
+
+
+ .wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: -3em;
+}
+
+#transactions {
+  padding: 4rem 0 12rem 0;
+}
+
+#transactions h3 {
+  color: #636363;
+  font-size: 3.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#transactions .tabs {
+  text-align: center;
+  margin: 10rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#transactions .tabs .tab-links {
+  border-bottom: 1px;
+  border-top: 1px;
+  padding: 1.5rem 8rem;
+  color: #00758f;
+  cursor: pointer;
+  font-size: 2.1rem;
+}
+#transactions .tabs .tab-links:hover {
+  background-color: #00758f;
+  color: #ffffff;
+  -webkit-transition: 0.8s ease all;
+  -o-transition: 0.8s ease all;
+  transition: 0.8s ease all;
+}
+#transactions .tabs .tab-links:first-child {
+  margin-right: 2rem;
+}
+#transactions .tabs .tab-links.active {
+  background-color: #00758f;
+  color: #ffffff;
+}
+#transactions #tab-employee,
+#transactions #tab-manager {
+  text-align: left;
+  display: none;
+}
+#transactions #tab-employee.active,
+#transactions #tab-manager.active {
+  display: block;
+}
+#transactions #tab-employee .flex-row,
+#transactions #tab-manager .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#transactions #tab-employee .left-list,
+#transactions #tab-manager .left-list {
+  width: 55%;
+  padding-top: 8em;
+  display: inline-block;
+  padding-bottom: 6rem;
+  border-bottom: 3px ;
+}
+#transactions #tab-employee .left-list ol li,
+#transactions #tab-manager .left-list ol li {
+  margin-bottom: 2rem;
+  left: 4rem;
+  list-style-type: none;
+  color: #c7d9df;
+  position: relative;
+  cursor: pointer;
+}
+#transactions #tab-employee .left-list ol li p,
+#transactions #tab-manager .left-list ol li p {
+  color: #c7d9df;
+  font-weight: normal;
+  padding-left: 6rem;
+  font-size: 18pt;
+  line-height: 3rem;
+  letter-spacing: 0.05em;
+}
+#transactions #tab-employee .left-list ol li p span,
+#transactions #tab-manager .left-list ol li p span {
+  font-weight: bold;
+  position: absolute;
+  left: 8%;
+  right: 0;
+}
+#transactions #tab-employee .left-list ol li.activeSlide,
+#transactions #tab-manager .left-list ol li.activeSlide {
+  color: #000000;
+  font-weight: bold;
+}
+#transactions #tab-employee .left-list ol li.activeSlide p,
+#transactions #tab-manager .left-list ol li.activeSlide p {
+  color: #000000;
+  font-weight: bold;
+}
+#transactions #tab-employee .right-image,
+#transactions #tab-manager .right-image {
+  width: 40%;
+  float: right;
+  right: 8%;
+  position: relative;
+  overflow: hidden;
+}
+#transactions #tab-employee .right-image .overflow,
+#transactions #tab-manager .right-image .overflow {
+  width: 51%;
+  height: 78%;
+  overflow: hidden;
+  position: absolute;
+  top: 9%;
+  left: 25%;
+}
+#transactions #tab-employee .right-image .overflow ul,
+#transactions #tab-manager .right-image .overflow ul {
+  height: 100%;
+}
+#transactions #tab-employee .right-image .overflow ul li,
+#transactions #tab-manager .right-image .overflow ul li {
+  display: none;
+  height: 100%;
+  position: absolute;
+}
+#transactions #tab-employee .right-image .overflow ul li:first-child,
+#transactions #tab-manager .right-image .overflow ul li:first-child {
+  display: block;
+}
+#transactions #tab-employee .right-image .overflow ul li img,
+#transactions #tab-manager .right-image .overflow ul li img {
+  width: 100%;
+  width: 100%;
+}
+#transactions #tab-employee .right-image .visi-hidden,
+#transactions #tab-manager .right-image .visi-hidden {
+  width: 100%;
+}
+#transactions #tab-employee .right-image .arrow,
+#transactions #tab-manager .right-image .arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 31px;
+  height: 55px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#transactions #tab-employee .right-image .arrow.arrow-left,
+#transactions #tab-manager .right-image .arrow.arrow-left {
+  left: 4%;
+  background-image: url("https://i.postimg.cc/Y97sDr57/arrows-left.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+#transactions #tab-employee .right-image .arrow.arrow-right,
+#transactions #tab-manager .right-image .arrow.arrow-right {
+  right: 4%;
+  background-image: url("https://i.postimg.cc/qRGZPfr3/arrows-right.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+#transactions #tab-employee .right-image .arrow.fadeOut,
+#transactions #tab-manager .right-image .arrow.fadeOut {
+  opacity: 0.4;
+  cursor: auto;
+}
+
+
+
+.recent_projects{
+  padding-top: 30em;
+}
+
+
+
+
+

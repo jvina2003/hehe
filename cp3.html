@@ -9,9 +9,15 @@
     <!--links-->
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" defer></script>
+
 
     <!--unicons-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> 
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -54,82 +60,131 @@
           </nav>
 
           <h2>
-            client project 3
+            will in the wild
           </h2>
 
         </header>  
 
 
         <div class="wp1__content">
-          <div class="page" data-color="teal1">
-            <span>
-            <img src="Rectangle 5.png">
-            <h4>overview </h4>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque autem laboriosam perspiciatis sed accusamus delectus praesentium velit impedit tenetur quia nesciunt corrupti iste vel debitis veniam nemo totam, dignissimos dicta nostrum saepe. Sunt totam officia, ducimus a est debitis repellat?s</p>
-            </span>
-          </div>
-          <div class="page" data-color="teal1">
-            <span>
+        <div class="page" data-color="teal1">
+          <span>
+          <img src="Rectangle 5.png">
+          <h4>overview </h4>
+          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque autem laboriosam perspiciatis sed accusamus delectus praesentium velit impedit tenetur quia nesciunt corrupti iste vel debitis veniam nemo totam, dignissimos dicta nostrum saepe. Sunt totam officia, ducimus a est debitis repellat?s</p>
+          </span>
+        </div>
+        </div>
+
+        <div data-color="teal1">
+          <section id="transactions">
+            <div class="wrapper">
+          
+              <div id="tab-employee" class="tab-content active">
+                <div class="flex-row">
+                  <div class="left-list">
+                    <ol id="nav">
+                      <li class="active"><p><span>1.</span> Search the Directory</p></li>
+                      <li><p><span>2.</span>What is My Vacation?</p></li>
+                      <li><p><span>3.</span>Request next Friday off</p></li>
+                      <li><p><span>4.</span>Nice placeholder image</p></li>
+                      <li><p><span>5.</span>Change my pay Direct</p></li>
+                    </ol>
+                  </div>
+
+                  <div class="right-image">
+                    <img class="visi-hidden" src="https://i.postimg.cc/2yc954Vj/phone-bg.png" alt="">
+          
+                    <div class="overflow">
+                      <ul id="slideshow">
+                        <li data-id="0" class="active"><img src="https://i.postimg.cc/8cPnDykn/slide-2.png" alt=""></li>
+                        <li data-id="1"><img src="https://i.postimg.cc/8cPnDykn/slide-2.png" alt=""></li>
+                        <li data-id="2"><img src="https://i.postimg.cc/8cPnDykn/slide-2.png" alt=""></li>
+                        <li data-id="3"><img src="https://i.postimg.cc/8cPnDykn/slide-2.png" alt=""></li>
+                        <li data-id="4"><img src="https://i.postimg.cc/8cPnDykn/slide-2.png" alt=""></li>
+                      </ul>
+                    </div>
+          
+                    <span id="prev" class="arrow arrow-left" onclick="prev()"></span>
+                    <span id="next" class="arrow arrow-right" onclick="next()"></span>
+                  </div>
+          
+                </div>
+          
+              </div>
+          
+          
+            </div>
+          </section>
+        </div>
+
+
+        <div class="wp1__content">
+        <div class="page" data-color="teal1">
+          <span>
             <h3>design process</h3>
-            <h4>1. background research</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-            <img src="Rectangle 5.png">
+            <h7>
+              1. background research <br> 
+              1. background researcdcdh <br> 
+            
+            </h7>
             <span>
-          </div>
-          <div class="page" data-color="teal2">
+        </div>
+        <div class="page" data-color="teal2">
+          <span>
+          <h4>2. define problem</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
+          <img src="Rectangle 5.png">
+          <span>
+        </div>
+        <div class="page" data-color="teal2">
+          <span>
+          <h4>3. user observation</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
+          <img src="Rectangle 5.png">
+          <span>
+        </div>
+        <div class="page" data-color="teal3">
+          <span>
+          <h4>4. brainstorming</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
+          <img src="Rectangle 5.png">
+          <span>
+        </div>
+        <div class="page" data-color="teal3">
+          <span>
+          <h4>5. mockup</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
+          <img src="Rectangle 5.png">
+          <span>
+        </div>
+        <div class="page" data-color="teal4">
             <span>
-            <h4>2. define problem</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-            <img src="Rectangle 5.png">
-            <span>
-          </div>
-          <div class="page" data-color="teal2">
-            <span>
-            <h4>3. user observation</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-            <img src="Rectangle 5.png">
-            <span>
-          </div>
-          <div class="page" data-color="teal3">
-            <span>
-            <h4>4. brainstorming</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-            <img src="Rectangle 5.png">
-            <span>
-          </div>
-          <div class="page" data-color="teal3">
-            <span>
-            <h4>5. mockup</h4>
+            <h4>6. mockup v2</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
             <img src="Rectangle 5.png">
             <span>
           </div>
           <div class="page" data-color="teal4">
-              <span>
-              <h4>6. mockup v2</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-              <img src="Rectangle 5.png">
-              <span>
-            </div>
-            <div class="page" data-color="teal4">
-              <span>
-              <h4>7. final</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-              <img src="Rectangle 5.png">
-              <span>
-            </div>
-          <div class="page" data-color="teal5">
             <span>
+            <h4>7. final</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
             <img src="Rectangle 5.png">
             <span>
           </div>
-          <div class="page" data-color="teal5">
-            <span>
-            <h4>reflection</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
-            <span>
-          </div>
-          </div>
-      
+        <div class="page" data-color="teal5">
+          <span>
+          <img src="Rectangle 5.png">
+          <span>
+        </div>
+        <div class="page" data-color="teal5">
+          <span>
+          <h4>reflection</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iste repellendus veniam possimus esse, sit aut ea rerum consequuntur, ipsum libero. Reprehenderit, dolorem magnam? Obcaecati necessitatibus architecto, quidem, molestias unde repellat ratione reiciendis consectetur alias laudantium culpa corrupti voluptas exercitationem libero, iste amet recusandae. Praesentium nesciunt rerum consectetur quibusdam eos.</p>
+          <span>
+        </div>
+        </div>
+
+
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span>🔝</span></button>
-        <div style="padding:30px 30px 0px"></div>
+        <div style="padding:30px 30px px"></div>
