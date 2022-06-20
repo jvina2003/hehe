@@ -927,7 +927,9 @@ margin-right:auto;
 .wp1__content img{
   margin-left: auto;
   margin-right: auto;
+  width: 400px;
   padding: 1.5em;
+  margin-top: 3em;
 
 }
 
@@ -1267,7 +1269,7 @@ white-space: pre-line;
 #transactions #tab-employee .left-list,
 #transactions #tab-manager .left-list {
   width: 55%;
-  padding-top: 8em;
+  padding-top: 4em;
   display: inline-block;
   padding-bottom: 6rem;
   border-bottom: 3px ;
@@ -1361,14 +1363,16 @@ white-space: pre-line;
 #transactions #tab-employee .right-image .arrow.arrow-left,
 #transactions #tab-manager .right-image .arrow.arrow-left {
   left: 4%;
-  background-image: url("https://i.postimg.cc/Y97sDr57/arrows-left.png");
+  margin-top: -2em;
+  background-image: url(left.png);
   background-repeat: no-repeat;
   background-position: left top;
 }
 #transactions #tab-employee .right-image .arrow.arrow-right,
 #transactions #tab-manager .right-image .arrow.arrow-right {
   right: 4%;
-  background-image: url("https://i.postimg.cc/qRGZPfr3/arrows-right.png");
+  margin-top: -2em;
+  background-image: url(right\ \(1\).png);
   background-repeat: no-repeat;
   background-position: right top;
 }
