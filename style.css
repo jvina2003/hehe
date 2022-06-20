@@ -3,15 +3,6 @@
 :root{
 --header-height: 3rem;
 
-/* color */
---main-color: #489FB5;
---main-color-lighter: #82C0CC;
---title-color: #125665 ;
---text-color: #16697A ;
---accent-color: #FFA62B ;
---accent-color-2: #D396E4 ;
---background-color: #EDE7E3 ;
-
 /* font */
 --body-font: 'Plus Jakarta Sans', sans-serif;
 
@@ -103,7 +94,7 @@ body.light-mode a {
   color: rgb(0, 0, 0);
 }
 body.light-mode .o{
-  color: #de702c;
+  color: #e88d55;
 }
 body.light-mode button {
   background-color: #111;
@@ -131,7 +122,7 @@ body.dark-mode a{
   color: white ;
 }
 body.dark-mode .o{
-  color: #de702c ;
+  color: #eb8d52 ;
 }
 body.dark-mode button {
   background-color: #eee;
@@ -159,12 +150,12 @@ body.dark-mode .overlay {
 .bio p{
   margin-top: 1em;
   text-align: center;
-  color: rgb(127, 127, 127);
+  color: rgb(187, 187, 187);
   line-height: 2.5em;
 }
 
 .bio .n{
-  color: rgb(152, 109, 89);
+  color: rgb(231, 174, 147);
 }
 
 .bio .n:hover{
@@ -172,7 +163,7 @@ body.dark-mode .overlay {
 }
 
 .bio .m{
-  color: rgb(48, 175, 149);
+  color: rgb(78, 201, 177);
 }
 
 .bio .m:hover{
@@ -181,7 +172,7 @@ body.dark-mode .overlay {
 
 .o{
   position: relative;
-  color: rgb(176, 72, 199);
+  color: rgb(221, 135, 241);
   transform: translate(-50%,-50%);
 }
 
@@ -228,7 +219,7 @@ body.dark-mode .overlay {
 }
 
 .content__container__text a{
-  color: #de822c;
+  color: rgb(255, 200, 62);
 }
 .content__container__text a:hover{
   text-decoration: underline;
@@ -258,19 +249,19 @@ body.dark-mode .overlay {
 }
 
 .content__container__list #a {
-  color: fuchsia;
+  color: rgb(255, 64, 255);
 }
 
 .content__container__list #b {
-  color: red;
+  color: rgb(255, 54, 54);
 }
 
 .content__container__list #c {
-  color: goldenrod;
+  color: rgb(255, 139, 62);
 }
 
 .content__container__list #d {
-  color: blueviolet;
+  color: rgb(192, 125, 255);
 }
 
 
@@ -427,7 +418,7 @@ body.dark-mode .overlay {
     height: 3px;
     margin-bottom: 10px;
     position: relative;
-    background: black;
+    background: rgb(0, 0, 0);
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
@@ -436,6 +427,17 @@ body.dark-mode .overlay {
                 opacity 0.55s ease;
   }
 
+  .bg-video-wrap #menuToggle span{
+    background: rgb(255, 255, 255);
+  }
+
+  .bg-video-wrap {
+    color: rgb(255, 255, 255);
+  }
+
+  .bg-video-wrap .nav__logo path{
+    fill: white;
+  }
   
   #menuToggle span:first-child{
     transform-origin: 0% 0%;
@@ -558,7 +560,7 @@ body.dark-mode .overlay {
 
 
 .nav__menu a {
-    color: black; 
+    color: rgb(255, 255, 255); 
     display: block; 
     text-decoration: none;
     text-align: center;
@@ -662,24 +664,6 @@ body.dark-mode .overlay {
   text-align: center;
 }
 
-.nav__menu2{
-  padding-top: 10em;
-}
-
-.nav__menu2 img{
-  width:300px;
-}
-
-.nav__menu2 h2{
-  position: relative;
-  text-align: center;
-}
-
-.nav__menu2 .boxes{
-  padding-top: 10em;
-  
-}
-
 
 /* ART */
 
@@ -696,6 +680,11 @@ body.dark-mode .overlay {
 
 
 /* cp */
+
+.cp__content h2{
+  margin-top: -5em;
+}
+
 
 .cp__content{
   margin-top: 1.5em;
@@ -794,9 +783,6 @@ body.dark-mode .overlay {
   text-align: center;
 }
 
-.bg-video-wrap h2{
-  padding-top: -5em;
-}
 
 
 /* ws */
@@ -1380,12 +1366,6 @@ white-space: pre-line;
 #transactions #tab-manager .right-image .arrow.fadeOut {
   opacity: 0.4;
   cursor: auto;
-}
-
-
-
-.recent_projects{
-  padding-top: 30em;
 }
 
 
