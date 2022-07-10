@@ -1401,7 +1401,7 @@ filter: grayscale(100%);
         padding: 2em 5em;
       }
 
-      .img-container img:hover {
+      .gallery img:hover {
         transform: scale(1.05);
       }
       
