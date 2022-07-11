@@ -544,6 +544,20 @@ body.dark-mode .overlay {
     font-style: normal;
   }
 
+  /* ART */
+
+.art__content{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.art__content img{
+  max-width: 400px;
+  max-height: 400px;
+  align-items: center;
+}
+
+
  #myBtn {
   display: none;
   position: fixed;
